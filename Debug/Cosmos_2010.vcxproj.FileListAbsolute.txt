@@ -1,0 +1,4 @@
+C:\Users\tw.kim\Desktop\109\소스코드\Debug\Cosmos.exe
+C:\Users\tw.kim\Desktop\109\소스코드\Debug\Cosmos.pdb
+C:\Users\tw.kim\Desktop\이력서 & 포트폴리오 (김태욱)\Cosmos\소스코드\Debug\Cosmos.exe
+C:\Users\tw.kim\Desktop\이력서 & 포트폴리오 (김태욱)\Cosmos\소스코드\Debug\Cosmos.pdb

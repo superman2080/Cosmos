@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cosmos.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Background.cpp" />
+    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="Score.cpp" />
+    <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="DXUT.cpp" />
+    <ClCompile Include="DXUTenum.cpp" />
+    <ClCompile Include="DXUTmisc.cpp" />
+    <ClCompile Include="SDKwavefile.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="UI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Gamedata.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="Score.h" />
+    <ClInclude Include="Boss.h" />
+    <ClInclude Include="DXUT.h" />
+    <ClInclude Include="DXUTenum.h" />
+    <ClInclude Include="DXUTmisc.h" />
+    <ClInclude Include="SDKwavefile.h" />
+    <ClInclude Include="Sound.h" />
+    <ClInclude Include="UI.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="Cosmos.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
